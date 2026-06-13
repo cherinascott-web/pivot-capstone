@@ -10,9 +10,9 @@ function App() {
         <div style={{ display: 'flex', gap: '32px' }}>
           <a href="/" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>Home</a>
           <a href="/about" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>About</a>
-          <a href="#" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>Offerings</a>
-          <a href="#" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>Pricing</a>
-          <a href="#" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>Contact</a>
+          <a href="/offerings" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>Offerings</a>
+          <a href="/pricing" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>Pricing</a>
+          <a href="/contact" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>Contact</a>
         </div>
       </nav>
 
@@ -67,7 +67,7 @@ function App() {
             <div key={item.title} style={{ backgroundColor: '#fff', borderRadius: '16px', padding: '28px', boxShadow: '0 4px 20px rgba(0,0,0,0.06)', borderTop: '4px solid #B8D4C8' }}>
               <h4 style={{ color: '#B8D4C8', fontSize: '20px', fontWeight: 'bold', margin: '0 0 12px 0' }}>{item.title}</h4>
               <p style={{ color: '#C9B8E8', fontSize: '14px', lineHeight: '1.6', marginBottom: '16px' }}>{item.desc}</p>
-              <a href="#" style={{ color: '#F2C4CE', fontSize: '14px', fontWeight: '600', textDecoration: 'none' }}>{item.cta}</a>
+              <a href="/offerings" style={{ color: '#F2C4CE', fontSize: '14px', fontWeight: '600', textDecoration: 'none' }}>{item.cta}</a>
             </div>
           ))}
         </div>
