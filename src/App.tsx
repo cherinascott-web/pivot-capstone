@@ -8,9 +8,11 @@ function App() {
           TRIBE GNOSIS
         </h1>
         <div style={{ display: 'flex', gap: '32px' }}>
-          {['Home', 'About', 'Offerings', 'Pricing', 'Contact'].map(link => (
-            <a key={link} href="#" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>{link}</a>
-          ))}
+          <a href="/" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>Home</a>
+          <a href="/about" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>About</a>
+          <a href="#" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>Offerings</a>
+          <a href="#" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>Pricing</a>
+          <a href="#" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>Contact</a>
         </div>
       </nav>
 
@@ -20,7 +22,7 @@ function App() {
           <p style={{ color: '#F2C4CE', fontSize: '12px', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: '16px' }}>
             Move. Nourish. Glow.
           </p>
-          <h2 style={{ color: '#B8D4C8', fontSize: '52px', fontWeight: 'bold', lineHeight: '1.1', marginBottom: '24px', margin: '0 0 24px 0' }}>
+          <h2 style={{ color: '#B8D4C8', fontSize: '52px', fontWeight: 'bold', lineHeight: '1.1', margin: '0 0 24px 0' }}>
             Beauty Meets Simplicity.
           </h2>
           <p style={{ color: '#C9B8E8', fontSize: '18px', lineHeight: '1.7', marginBottom: '16px' }}>
@@ -63,11 +65,32 @@ function App() {
             { title: 'Align', desc: 'Crystal healing for energy, clarity, and everyday wellness.', cta: 'Explore Crystals →' },
           ].map((item) => (
             <div key={item.title} style={{ backgroundColor: '#fff', borderRadius: '16px', padding: '28px', boxShadow: '0 4px 20px rgba(0,0,0,0.06)', borderTop: '4px solid #B8D4C8' }}>
-              <h4 style={{ color: '#B8D4C8', fontSize: '20px', fontWeight: 'bold', marginBottom: '12px', margin: '0 0 12px 0' }}>{item.title}</h4>
+              <h4 style={{ color: '#B8D4C8', fontSize: '20px', fontWeight: 'bold', margin: '0 0 12px 0' }}>{item.title}</h4>
               <p style={{ color: '#C9B8E8', fontSize: '14px', lineHeight: '1.6', marginBottom: '16px' }}>{item.desc}</p>
               <a href="#" style={{ color: '#F2C4CE', fontSize: '14px', fontWeight: '600', textDecoration: 'none' }}>{item.cta}</a>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* APPAREL */}
+      <section style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: '80px 60px', gap: '60px', backgroundColor: '#fff' }}>
+        <div style={{ flex: 1 }}>
+          <p style={{ color: '#F2C4CE', fontSize: '12px', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: '16px' }}>
+            Coming Soon
+          </p>
+          <h3 style={{ color: '#B8D4C8', fontSize: '42px', fontWeight: 'bold', lineHeight: '1.1', margin: '0 0 20px 0' }}>
+            Dress the Part.
+          </h3>
+          <p style={{ color: '#C9B8E8', fontSize: '17px', lineHeight: '1.7', marginBottom: '32px' }}>
+            Move-to-night athleisure that goes from your morning yoga mat to your evening plans without missing a beat. Comfortable, affordable, and effortlessly chic.
+          </p>
+          <button style={{ backgroundColor: 'transparent', color: '#B8D4C8', border: '2px solid #B8D4C8', padding: '14px 32px', borderRadius: '50px', fontSize: '15px', fontWeight: '600', cursor: 'pointer', letterSpacing: '1px' }}>
+            Join the Waitlist
+          </button>
+        </div>
+        <div style={{ flex: 1, borderRadius: '24px', overflow: 'hidden', boxShadow: '0 20px 60px rgba(0,0,0,0.1)' }}>
+          <img src="/IMG_6391.jpg" alt="Tribe Gnosis Apparel" style={{ width: '100%', height: '600px', objectFit: 'cover', objectPosition: 'top' }} />
         </div>
       </section>
 
