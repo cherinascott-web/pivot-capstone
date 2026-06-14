@@ -41,8 +41,8 @@ function Offerings() {
             Start Moving →
           </a>
         </div>
-        <div style={{ flex: 1, height: '420px', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 20px 60px rgba(0,0,0,0.1)', backgroundColor: '#B8D4C8', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <p style={{ color: '#fff', fontSize: '48px' }}>🧘‍♀️</p>
+        <div style={{ flex: 1, height: '420px', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 20px 60px rgba(0,0,0,0.1)' }}>
+          <img src="/yoga.jpg" alt="Yoga and meditation" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
       </section>
 
@@ -58,8 +58,8 @@ function Offerings() {
             Get the Recipes →
           </a>
         </div>
-        <div style={{ flex: 1, height: '420px', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 20px 60px rgba(0,0,0,0.1)', backgroundColor: '#F2C4CE', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <p style={{ color: '#fff', fontSize: '48px' }}>✨</p>
+        <div style={{ flex: 1, height: '420px', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 20px 60px rgba(0,0,0,0.1)' }}>
+          <img src="/glow.jpg" alt="Kitchen beauty skincare" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
       </section>
 
@@ -75,9 +75,9 @@ function Offerings() {
             Explore Nutrition →
           </a>
         </div>
-        <div style={{ flex: 1, height: '420px', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 20px 60px rgba(0,0,0,0.1)', backgroundColor: '#C9B8E8', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <p style={{ color: '#fff', fontSize: '48px' }}>🥗</p>
-        </div>
+        <div style={{ flex: 1, height: '420px', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 20px 60px rgba(0,0,0,0.1)' }}>
+  <img src="/nourish.jpg" alt="Fresh produce and nutrition" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+</div>
       </section>
 
       {/* ALIGN */}
@@ -92,8 +92,8 @@ function Offerings() {
             Explore Crystals →
           </a>
         </div>
-        <div style={{ flex: 1, height: '420px', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 20px 60px rgba(0,0,0,0.1)', backgroundColor: '#B8D4C8', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <p style={{ color: '#fff', fontSize: '48px' }}>💎</p>
+        <div style={{ flex: 1, height: '420px', borderRadius: '24px', overflow: 'hidden', boxShadow: '0 20px 60px rgba(0,0,0,0.1)' }}>
+          <img src="/crystals.jpg" alt="Crystal healing collection" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
       </section>
 
