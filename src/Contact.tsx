@@ -71,13 +71,14 @@ function Contact() {
         <div style={{ flex: 1 }}>
           <div style={{ marginBottom: '40px' }}>
             <p style={{ color: '#F2C4CE', fontSize: '12px', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: '12px' }}>Email</p>
-            <p style={{ color: '#C9B8E8', fontSize: '16px', margin: 0 }}>hello@tribegnosis.com</p>
+            <p style={{ color: '#C9B8E8', fontSize: '16px', margin: 0 }}>hello@tribegnosis.org</p>
           </div>
           <div style={{ marginBottom: '40px' }}>
-            <p style={{ color: '#F2C4CE', fontSize: '12px', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: '12px' }}>Social</p>
-            <p style={{ color: '#C9B8E8', fontSize: '16px', margin: '0 0 8px 0' }}>@tribegnosis</p>
-            <p style={{ color: '#C9B8E8', fontSize: '16px', margin: 0 }}>Instagram · TikTok · YouTube</p>
-          </div>
+  <p style={{ color: '#F2C4CE', fontSize: '12px', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: '12px' }}>Social</p>
+  <p style={{ color: '#C9B8E8', fontSize: '16px', margin: '0 0 8px 0' }}>@tribegnosis</p>
+  <p style={{ color: '#C9B8E8', fontSize: '16px', margin: '0 0 8px 0' }}>Instagram · TikTok · YouTube</p>
+  <a href="https://www.linkedin.com/in/cherina-montenique-178630109" target="_blank" rel="noreferrer" style={{ color: '#B8D4C8', fontSize: '16px', fontWeight: '600', textDecoration: 'none' }}>LinkedIn →</a>
+</div>
           <div>
             <p style={{ color: '#F2C4CE', fontSize: '12px', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: '12px' }}>A Note</p>
             <p style={{ color: '#C9B8E8', fontSize: '16px', lineHeight: '1.8', margin: 0 }}>

@@ -32,13 +32,13 @@ function App() {
             Built by a woman who has lived it. For women who are ready to start.
           </p>
           <div style={{ display: 'flex', gap: '16px' }}>
-            <button style={{ backgroundColor: '#B8D4C8', color: '#fff', border: 'none', padding: '14px 28px', borderRadius: '50px', fontSize: '15px', fontWeight: '600', cursor: 'pointer' }}>
-              Join the Tribe
-            </button>
-            <button style={{ backgroundColor: 'transparent', color: '#B8D4C8', border: '2px solid #B8D4C8', padding: '14px 28px', borderRadius: '50px', fontSize: '15px', fontWeight: '600', cursor: 'pointer' }}>
-              Explore Offerings
-            </button>
-          </div>
+  <a href="/pricing" style={{ backgroundColor: '#B8D4C8', color: '#fff', border: 'none', padding: '14px 28px', borderRadius: '50px', fontSize: '15px', fontWeight: '600', cursor: 'pointer', textDecoration: 'none', display: 'inline-block' }}>
+    Join the Tribe
+  </a>
+  <a href="/offerings" style={{ backgroundColor: 'transparent', color: '#B8D4C8', border: '2px solid #B8D4C8', padding: '14px 28px', borderRadius: '50px', fontSize: '15px', fontWeight: '600', cursor: 'pointer', textDecoration: 'none', display: 'inline-block' }}>
+    Explore Offerings
+  </a>
+</div>
         </div>
         <div style={{ width: '420px', height: '520px', borderRadius: '24px', overflow: 'hidden', flexShrink: 0, boxShadow: '0 20px 60px rgba(0,0,0,0.15)' }}>
           <img src="/cherina.jpg" alt="Cherina Montenique" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
