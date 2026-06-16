@@ -8,9 +8,7 @@ function Contact() {
 
       {/* NAVBAR */}
       <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '20px 60px', backgroundColor: '#FAF6F0' }}>
-        <h1 style={{ color: '#B8D4C8', fontSize: '22px', letterSpacing: '4px', margin: 0, fontWeight: 'bold' }}>
-          TRIBE GNOSIS
-        </h1>
+        <img src="/logo.png" alt="Tribe Gnosis" style={{ height: '60px', width: 'auto' }} />
         <div style={{ display: 'flex', gap: '32px' }}>
           <a href="/" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>Home</a>
           <a href="/about" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: '14px', fontWeight: '500', letterSpacing: '1px' }}>About</a>
