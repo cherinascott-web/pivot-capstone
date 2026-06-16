@@ -14,25 +14,25 @@ function App() {
 
       {/* NAVBAR */}
       <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: isMobile ? '16px 20px' : '20px 60px', backgroundColor: '#FAF6F0', flexWrap: 'wrap', gap: '8px' }}>
-        <h1 style={{ color: '#B8D4C8', fontSize: isMobile ? '16px' : '22px', letterSpacing: '4px', margin: 0, fontWeight: 'bold' }}>
+        <h1 style={{ color: '#7BA898', fontSize: isMobile ? '16px' : '22px', letterSpacing: '4px', margin: 0, fontWeight: 'bold' }}>
           TRIBE GNOSIS
         </h1>
         <div style={{ display: 'flex', gap: isMobile ? '12px' : '32px', flexWrap: 'wrap' }}>
-          <a href="/" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: isMobile ? '11px' : '14px', fontWeight: '500', letterSpacing: '1px' }}>Home</a>
-          <a href="/about" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: isMobile ? '11px' : '14px', fontWeight: '500', letterSpacing: '1px' }}>About</a>
-          <a href="/offerings" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: isMobile ? '11px' : '14px', fontWeight: '500', letterSpacing: '1px' }}>Offerings</a>
-          <a href="/pricing" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: isMobile ? '11px' : '14px', fontWeight: '500', letterSpacing: '1px' }}>Pricing</a>
-          <a href="/contact" style={{ color: '#B8D4C8', textDecoration: 'none', fontSize: isMobile ? '11px' : '14px', fontWeight: '500', letterSpacing: '1px' }}>Contact</a>
+          <a href="/" style={{ color: '#7BA898', textDecoration: 'none', fontSize: isMobile ? '11px' : '14px', fontWeight: '500', letterSpacing: '1px' }}>Home</a>
+          <a href="/about" style={{ color: '#7BA898', textDecoration: 'none', fontSize: isMobile ? '11px' : '14px', fontWeight: '500', letterSpacing: '1px' }}>About</a>
+          <a href="/offerings" style={{ color: '#7BA898', textDecoration: 'none', fontSize: isMobile ? '11px' : '14px', fontWeight: '500', letterSpacing: '1px' }}>Offerings</a>
+          <a href="/pricing" style={{ color: '#7BA898', textDecoration: 'none', fontSize: isMobile ? '11px' : '14px', fontWeight: '500', letterSpacing: '1px' }}>Pricing</a>
+          <a href="/contact" style={{ color: '#7BA898', textDecoration: 'none', fontSize: isMobile ? '11px' : '14px', fontWeight: '500', letterSpacing: '1px' }}>Contact</a>
         </div>
       </nav>
 
       {/* HERO */}
       <section style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', alignItems: 'center', justifyContent: 'space-between', padding: isMobile ? '40px 24px' : '60px 60px', gap: '40px' }}>
         <div style={{ maxWidth: isMobile ? '100%' : '520px' }}>
-          <p style={{ color: '#F2C4CE', fontSize: '12px', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: '16px' }}>
+          <p style={{ color: '#D4849A', fontSize: '12px', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: '16px' }}>
             Move. Nourish. Glow.
           </p>
-          <h2 style={{ color: '#B8D4C8', fontSize: isMobile ? '36px' : '52px', fontWeight: 'bold', lineHeight: '1.1', margin: '0 0 24px 0' }}>
+          <h2 style={{ color: '#7BA898', fontSize: isMobile ? '36px' : '52px', fontWeight: 'bold', lineHeight: '1.1', margin: '0 0 24px 0' }}>
             Beauty Meets Simplicity.
           </h2>
           <p style={{ color: '#6B7B6E', fontSize: '18px', lineHeight: '1.7', marginBottom: '16px' }}>
@@ -42,10 +42,10 @@ function App() {
             Built by a woman who has lived it. For women who are ready to start.
           </p>
           <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
-            <a href="/pricing" style={{ backgroundColor: '#B8D4C8', color: '#fff', border: 'none', padding: '14px 28px', borderRadius: '50px', fontSize: '15px', fontWeight: '600', cursor: 'pointer', textDecoration: 'none', display: 'inline-block' }}>
+            <a href="/pricing" style={{ backgroundColor: '#7BA898', color: '#fff', border: 'none', padding: '14px 28px', borderRadius: '50px', fontSize: '15px', fontWeight: '600', cursor: 'pointer', textDecoration: 'none', display: 'inline-block' }}>
               Join the Tribe
             </a>
-            <a href="/offerings" style={{ backgroundColor: 'transparent', color: '#B8D4C8', border: '2px solid #B8D4C8', padding: '14px 28px', borderRadius: '50px', fontSize: '15px', fontWeight: '600', cursor: 'pointer', textDecoration: 'none', display: 'inline-block' }}>
+            <a href="/offerings" style={{ backgroundColor: 'transparent', color: '#7BA898', border: '2px solid #7BA898', padding: '14px 28px', borderRadius: '50px', fontSize: '15px', fontWeight: '600', cursor: 'pointer', textDecoration: 'none', display: 'inline-block' }}>
               Explore Offerings
             </a>
           </div>
@@ -56,7 +56,7 @@ function App() {
       </section>
 
       {/* TRUST SIGNAL */}
-      <section style={{ backgroundColor: '#F2C4CE', padding: '20px', textAlign: 'center' }}>
+      <section style={{ backgroundColor: '#D4849A', padding: '20px', textAlign: 'center' }}>
         <p style={{ color: '#fff', fontSize: '16px', fontWeight: '600', margin: 0 }}>
           10,000+ women moving, glowing, and growing — join us.
         </p>
@@ -64,7 +64,7 @@ function App() {
 
       {/* FEATURES */}
       <section style={{ padding: isMobile ? '40px 24px' : '80px 60px' }}>
-        <h3 style={{ color: '#B8D4C8', fontSize: isMobile ? '24px' : '32px', fontWeight: 'bold', textAlign: 'center', marginBottom: '48px' }}>
+        <h3 style={{ color: '#7BA898', fontSize: isMobile ? '24px' : '32px', fontWeight: 'bold', textAlign: 'center', marginBottom: '48px' }}>
           Everything You Need. Nothing You Don't.
         </h3>
         <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'repeat(4, 1fr)', gap: '24px' }}>
@@ -74,10 +74,10 @@ function App() {
             { title: 'Nourish', desc: 'Real-world nutrition guidance built around your actual life.', cta: 'Explore Nutrition →' },
             { title: 'Align', desc: 'Crystal healing for energy, clarity, and everyday wellness.', cta: 'Explore Crystals →' },
           ].map((item) => (
-            <div key={item.title} style={{ backgroundColor: '#fff', borderRadius: '16px', padding: '28px', boxShadow: '0 4px 20px rgba(0,0,0,0.06)', borderTop: '4px solid #B8D4C8' }}>
-              <h4 style={{ color: '#B8D4C8', fontSize: '20px', fontWeight: 'bold', margin: '0 0 12px 0' }}>{item.title}</h4>
+            <div key={item.title} style={{ backgroundColor: '#fff', borderRadius: '16px', padding: '28px', boxShadow: '0 4px 20px rgba(0,0,0,0.06)', borderTop: '4px solid #7BA898' }}>
+              <h4 style={{ color: '#7BA898', fontSize: '20px', fontWeight: 'bold', margin: '0 0 12px 0' }}>{item.title}</h4>
               <p style={{ color: '#6B7B6E', fontSize: '14px', lineHeight: '1.6', marginBottom: '16px' }}>{item.desc}</p>
-              <a href="#" style={{ color: '#F2C4CE', fontSize: '14px', fontWeight: '600', textDecoration: 'none' }}>{item.cta}</a>
+              <a href="#" style={{ color: '#D4849A', fontSize: '14px', fontWeight: '600', textDecoration: 'none' }}>{item.cta}</a>
             </div>
           ))}
         </div>
@@ -86,16 +86,16 @@ function App() {
       {/* APPAREL */}
       <section style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', alignItems: 'center', justifyContent: 'space-between', padding: isMobile ? '40px 24px' : '80px 60px', gap: '60px', backgroundColor: '#fff' }}>
         <div style={{ flex: 1 }}>
-          <p style={{ color: '#F2C4CE', fontSize: '12px', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: '16px' }}>
+          <p style={{ color: '#D4849A', fontSize: '12px', letterSpacing: '4px', textTransform: 'uppercase', marginBottom: '16px' }}>
             Coming Soon
           </p>
-          <h3 style={{ color: '#B8D4C8', fontSize: isMobile ? '32px' : '42px', fontWeight: 'bold', lineHeight: '1.1', margin: '0 0 20px 0' }}>
+          <h3 style={{ color: '#7BA898', fontSize: isMobile ? '32px' : '42px', fontWeight: 'bold', lineHeight: '1.1', margin: '0 0 20px 0' }}>
             Dress the Part.
           </h3>
           <p style={{ color: '#6B7B6E', fontSize: '17px', lineHeight: '1.7', marginBottom: '32px' }}>
             Move-to-night athleisure that goes from your morning yoga mat to your evening plans without missing a beat. Comfortable, affordable, and effortlessly chic.
           </p>
-          <button style={{ backgroundColor: 'transparent', color: '#B8D4C8', border: '2px solid #B8D4C8', padding: '14px 32px', borderRadius: '50px', fontSize: '15px', fontWeight: '600', cursor: 'pointer', letterSpacing: '1px' }}>
+          <button style={{ backgroundColor: 'transparent', color: '#7BA898', border: '2px solid #7BA898', padding: '14px 32px', borderRadius: '50px', fontSize: '15px', fontWeight: '600', cursor: 'pointer', letterSpacing: '1px' }}>
             Join the Waitlist
           </button>
         </div>
@@ -105,7 +105,7 @@ function App() {
       </section>
 
       {/* FOOTER */}
-      <footer style={{ backgroundColor: '#B8D4C8', padding: '24px', textAlign: 'center' }}>
+      <footer style={{ backgroundColor: '#7BA898', padding: '24px', textAlign: 'center' }}>
         <p style={{ color: '#FAF6F0', fontSize: '13px', margin: 0 }}>© 2026 Tribe Gnosis · Cherina Montenique Scott · All Rights Reserved</p>
       </footer>
 
