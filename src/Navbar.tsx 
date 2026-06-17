@@ -1,0 +1,75 @@
+import { useState, useEffect } from 'react'
+
+const NAV_LINKS = [
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about' },
+  { label: 'Offerings', href: '/offerings' },
+  { label: 'Pricing', href: '/pricing' },
+  { label: 'Contact', href: '/contact' },
+]
+
+function Navbar() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768)
+  const [menuOpen, setMenuOpen] = useState(false)
+  const currentPath = window.location.pathname
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768)
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
+
+  const isActive = (href: string) =>
+    href === '/' ? currentPath === '/' : currentPath.startsWith(href)
+
+  const linkStyle = (href: string) => ({
+    color: isActive(href) ? '#D4849A' : '#7BA898',
+    textDecoration: 'none',
+    fontSize: '14px',
+    fontWeight: isActive(href) ? 700 : 500,
+    letterSpacing: '1px',
+    borderBottom: isActive(href) ? '2px solid #D4849A' : '2px solid transparent',
+    paddingBottom: '4px',
+  })
+
+  return (
+    <nav style={{ backgroundColor: '#FAF6F0' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: isMobile ? '16px 20px' : '20px 60px', maxWidth: '1200px', margin: '0 auto' }}>
+        <h1 style={{ color: '#7BA898', fontSize: isMobile ? '16px' : '22px', letterSpacing: '4px', margin: 0, fontWeight: 'bold' }}>
+          TRIBE GNOSIS
+        </h1>
+
+        {isMobile ? (
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Toggle menu"
+            aria-expanded={menuOpen}
+            style={{ background: 'none', border: 'none', cursor: 'pointer', display: 'flex', flexDirection: 'column', gap: '4px', padding: '4px' }}
+          >
+            <span style={{ width: '24px', height: '2px', backgroundColor: '#7BA898' }} />
+            <span style={{ width: '24px', height: '2px', backgroundColor: '#7BA898' }} />
+            <span style={{ width: '24px', height: '2px', backgroundColor: '#7BA898' }} />
+          </button>
+        ) : (
+          <div style={{ display: 'flex', gap: '32px' }}>
+            {NAV_LINKS.map((link) => (
+              <a key={link.href} href={link.href} style={linkStyle(link.href)}>{link.label}</a>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {isMobile && menuOpen && (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', padding: '0 20px 20px' }}>
+          {NAV_LINKS.map((link) => (
+            <a key={link.href} href={link.href} style={linkStyle(link.href)} onClick={() => setMenuOpen(false)}>
+              {link.label}
+            </a>
+          ))}
+        </div>
+      )}
+    </nav>
+  )
+}
+
+export default Navbar
